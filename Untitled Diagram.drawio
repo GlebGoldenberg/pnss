@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T10:05:58.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="tROCyi6kyUviSomcs_Fs" version="17.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-15T10:18:55.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="q2Qhef1CmBjlF9Ky4SJB" version="17.1.2" type="github" pages="4">
   <diagram id="cUsuwcZlSPQVPA4hMh6P" name="UML Дневник Ру">
     <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -431,11 +431,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QDI68F1kSJapzTasZuZf" name="Жизненный цикл">
-    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="o9FfTPZpxH-69FEfKLFc-0" />
         <mxCell id="o9FfTPZpxH-69FEfKLFc-1" parent="o9FfTPZpxH-69FEfKLFc-0" />
-        <mxCell id="o9FfTPZpxH-69FEfKLFc-2" value="&lt;span id=&quot;docs-internal-guid-07b7eaea-7fff-8c9d-3578-d00b32318250&quot;&gt;&lt;span style=&quot;font-size: 11pt ; font-family: &amp;#34;arial&amp;#34; ; background-color: transparent ; vertical-align: baseline&quot;&gt;switch($_GET[&#39;action&#39;])&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+        <mxCell id="FeqSMJCopUsaeqi25odb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="o9FfTPZpxH-69FEfKLFc-2" target="FeqSMJCopUsaeqi25odb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o9FfTPZpxH-69FEfKLFc-2" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Загружает конфигурацию приложения в качестве массива&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
           <mxGeometry x="1040" y="1020" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o9FfTPZpxH-69FEfKLFc-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" target="o9FfTPZpxH-69FEfKLFc-2">
@@ -446,6 +449,59 @@
         </mxCell>
         <mxCell id="o9FfTPZpxH-69FEfKLFc-4" value="&lt;p style=&quot;line-height: 1.1&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Входящий HTTP- запрос&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
           <mxGeometry x="1000" y="920" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-1" target="FeqSMJCopUsaeqi25odb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-1" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Настраивает автозагрузку классов&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1040" y="1130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-4" target="FeqSMJCopUsaeqi25odb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-4" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Разбор информации запроса в маршрут с параметрами&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1040" y="1590" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-5" target="FeqSMJCopUsaeqi25odb-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-5" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Создание объектов контроллера и действия согласно указанному маршруту&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1040" y="1700" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-8" target="FeqSMJCopUsaeqi25odb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-8" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Вызывает метод для запуска приложения&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1040" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-11" target="FeqSMJCopUsaeqi25odb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-11" value="&lt;font face=&quot;arial&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Создаёт новый объект приложения&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1040" y="1240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-12" target="FeqSMJCopUsaeqi25odb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;strokeWidth=1;" edge="1" parent="o9FfTPZpxH-69FEfKLFc-1" source="FeqSMJCopUsaeqi25odb-12" target="o9FfTPZpxH-69FEfKLFc-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1510" />
+              <mxPoint x="950" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Инициализация вспомогательных объектов&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1030" y="1460" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-13" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 14.6667px&quot;&gt;Запуск действия&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;strokeWidth=1;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1035" y="1800" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-22" value="Да" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="1220" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FeqSMJCopUsaeqi25odb-23" value="Нет" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="o9FfTPZpxH-69FEfKLFc-1">
+          <mxGeometry x="910" y="1510" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
